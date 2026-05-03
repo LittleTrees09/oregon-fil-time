@@ -86,11 +86,11 @@ int main(void)
     */
     
     if (c_time >= 0 && c_time <= 9) {
-        printf("Jm's time in 12-hour time: %d:%.2d PM", j_time, minutes);
+        printf("Jm's time in 12-hour time: %d:%.2d PM\n", j_time, minutes);
     } else if (c_time >= 22 && c_time <= 24) {
-        printf("Jm's time in 12-hour time: %d:%.2d PM", j_time, minutes);
+        printf("Jm's time in 12-hour time: %d:%.2d PM\n", j_time, minutes);
     } else if (c_time >= 10 && c_time <= 21) {
-        printf("Jm's time in 12-hour time: %d:%.2d AM", j_time, minutes);
+        printf("Jm's time in 12-hour time: %d:%.2d AM\n", j_time, minutes);
     }
     return 0;
 }
